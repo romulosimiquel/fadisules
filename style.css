@@ -1,0 +1,56 @@
+/*CSS*/
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .barra {
+    background-color: rgb(12, 31, 139);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    margin-bottom: auto;
+  }
+
+  .logo {
+    position: fixed;
+    width: 90px;
+    height: 70px;
+    top: 0;
+    left: 0;
+  }
+
+  #menu {
+    padding-top: 50px;
+    width: 30%;
+    margin: 0; 
+    margin-left: -35px;
+    padding: 0;
+    float: left;
+    }
+
+  #menu ul li {
+    margin: 0; padding: 0px;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+    list-style-type: none;
+    }
